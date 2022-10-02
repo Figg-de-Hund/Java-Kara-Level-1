@@ -46,6 +46,7 @@ public class GameState extends ScreenState {
 		gameScreen.addObject(levelLabel, GameScreen.WIDTH_IN_CELLS - 3,
 				GameScreen.HEIGHT_IN_CELLS - 1);
 
+
 		moveCounterLabel = new Label(gameScreen, "Moves: 0", 95, 18,
 				GameScreen.FONT_S_BOLD);
 		moveCounterLabel.setBackgroundTransparency(180);
@@ -60,6 +61,7 @@ public class GameState extends ScreenState {
 		retryLevelButton.setBackgroundTransparency(180);
 		gameScreen.addObject(retryLevelButton, GameScreen.WIDTH_IN_CELLS - 11,
 				GameScreen.HEIGHT_IN_CELLS - 1);
+
 	}
 
 	/**
